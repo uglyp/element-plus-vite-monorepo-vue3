@@ -1,0 +1,12 @@
+{
+  "name": "@monorepo/utils",
+  "version": "1.0.0",
+  "description": "utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "serve"
+  },
+  "author": "uglyp",
+  "license": "ISC",
+  "dependencies": {}
+}

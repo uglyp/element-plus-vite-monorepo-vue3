@@ -1,0 +1,12 @@
+{
+  "name": "@monorepo/template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build:preview": "vite build --mode preview",
+    "build:release": "vite build --mode production"
+  },
+  "author": "uglyp",
+  "license": "ISC"
+}

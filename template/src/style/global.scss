@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div,
+p,
+ul,
+li,
+ol,
+section,
+header,
+footer {
+  box-sizing: border-box;
+}
+
+@import "nprogress/nprogress.css"; // 进度条样式
+@import "element-plus/dist/index.css"; // 因非vue文件不能自动引入对应组件样式，暂时采用全量引入
+@import "./element-fix.scss";
+@import 'element-plus/theme-chalk/dark/css-vars.css'

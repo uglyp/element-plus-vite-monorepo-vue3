@@ -1,0 +1,49 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "monorepo crud",
+  "scripts": {
+    "template:dev": "pnpm --filter template run dev",
+    "template:build:preview": "pnpm --filter template run build:preview",
+    "template:build:release": "pnpm --filter template run build:release"
+  },
+  "author": "ugLyp",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dayjs": "^1.10.7",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.0",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "pdfjs-dist": "^2.13.216",
+    "pinia": "^2.0.14",
+    "qs": "^6.10.3",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.12",
+    "wangeditor": "^4.7.12"
+  },
+  "devDependencies": {
+    "@element-plus/icons-vue": "^0.2.7",
+    "@vitejs/plugin-legacy": "^1.8.2",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitejs/plugin-vue-jsx": "^1.3.10",
+    "@vueuse/components": "^7.7.1",
+    "@vueuse/core": "^7.7.1",
+    "element-plus": "^2.2.9",
+    "fast-glob": "^3.2.11",
+    "sass": "^1.49.7",
+    "unplugin-vue-define-options": "^0.6.1",
+    "vite": "^2.9.12",
+    "vite-plugin-svg-icons": "^2.0.1"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "element-plus",
+    "admin"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 12"
+  }
+}

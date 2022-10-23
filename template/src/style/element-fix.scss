@@ -1,0 +1,5 @@
+// fix element style
+.el-dialog__body {
+  max-height: 66vh;
+  overflow-y: scroll;
+}
