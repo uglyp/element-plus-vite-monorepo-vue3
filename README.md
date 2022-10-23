@@ -1,4 +1,4 @@
-# Element-Plus-Vite-Monorepo-Vue3
+# Element-Plus-Vite-Monorepo
 
 // https://github.com/uglyp/element-plus-vite-monorepo-vue3.git
 
